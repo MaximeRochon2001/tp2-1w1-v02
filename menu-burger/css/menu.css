@@ -1,0 +1,23 @@
+/* ici NON visible cause du display */
+.navigation,
+#chk-burger {
+  display: none;
+  position: fixed;
+  top: 40px;
+  right: 10px;
+}
+
+.navigation__bouton {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+/* ici visible cause du display */
+#chk-burger:checked ~ .navigation {
+  display: block;
+}
+
+.navigation a {
+  display: block;
+}
