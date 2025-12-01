@@ -36,8 +36,8 @@ header {
 .acceuil {
   --padding-x: 9.375rem;
   --padding-y: 15.0625rem;
-  background-color: var(--color-white-100);
-  min-height: 100vh;
+  /* background-color: var(--color-white-100); */
+  /* min-height: 100vh; */
   padding: var(--padding-y) var(--padding-x);
   padding-bottom: 0 !important;
 }
