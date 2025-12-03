@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="css/00_normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/formulaire.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/tableau.css">
 
     <title>tp2-2025-maxime-rochon</title>
   </head>
@@ -13,12 +16,12 @@
     <header class="header__position">
       <div>
         <figure>
-          <img class="hero__logo" src="../images/logo.png" alt="logo" />
+          <img class="header__logo" src="../images/logo.png" alt="logo" />
         </figure>
       </div>
 
       <div>
-        <h1 class="hero__h1">Micro Brasserie Mon Doux</h1>
+        <h1 class="header__h1">Micro Brasserie Mon Doux</h1>
       </div>
 
       <label class="navigation__bouton" for="chk-burger"
@@ -43,29 +46,215 @@
     <!-- //Les sections//////////////////////////////////// -->
     <div class="acceuil">
       <section id="acceuil" class="centre">
-        <h1>Tp2</h1>
-        <h1>Maxime Rochon</h1>
+       
+      <div class="acceuil__container">
+        
+        <div class="acceuil__text">
+          <h1>Tp2</h1>
+          <h1>Mon Doux</h1>
+          <h1>Maxime Rochon-1W1 – Mise en page Web</h1>
+          <h1>Techniques d’intégration multimédia</h1>
+          <h1>Collège de Maisonneuve</h1>
+          <h1><a href=https://maximerochon2001.github.io/tp2-1w1-v02>Page GitHub</a></h1>
+          <h1>Automne 2025</h1>
+        </div>
+
+        <div class="div__bouton">
+          <a class="bouton__inscription" href="#inscription">Inscription</a>
+        </div>
+
+      </div>
+
       </section>
     </div>
-
-    <div>
+<!-- //section inscription/////////////////////// -->
+    <div class="inscription__div">
       <section id="inscription" class="inscription centre">
         <h1>Inscription</h1>
+            <form class="formulaire">
+      <div class="formulaire__div">
+        <label class="formulaire__label" for="txtNom">Nom:</label>
+        <input
+          type="text"
+          id="txtNom"
+          class="formulaire__input"
+          placeholder="Entrez votre nom"
+        />
+      </div>
+      <div class="formulaire__div">
+        <label class="formulaire__label" for="txtCourriel">Courriel:</label>
+        <input
+          type="email"
+          id="txtCourriel"
+          class="formulaire__input"
+          placeholder="Entrez votre Courriel"
+        />
+      </div>
+      <div class="formulaire__div">
+        <label class="formulaire__label" for="txtMotsDePasse"
+          >Mots De Passe:</label
+        >
+        <input
+          type="text"
+          id="txtMotsDePasse"
+          class="formulaire__input"
+          placeholder="Entrez votre mots de passe"
+        />
+      </div>
+
+      <div>
+        <p>Sélectionner le type d'inscription</p>
+        <label class="formulaire__label" for="formulaire__label">
+          Forfait 1
+          <input
+            type="radio"
+            for="radForfait_1"
+            name="radForfait"
+            id="radForfait_1"
+        /></label>
+
+        <label class="formulaire__label" for="formulaire__label">
+          Forfait 2
+          <input
+            type="radio"
+            for="radForfait_2"
+            name="radForfait"
+            id="radForfait_2"
+        /></label>
+
+        <label class="formulaire__label" for="formulaire__label">
+          Forfait 3
+          <input
+            type="radio"
+            for="radForfait_3"
+            name="radForfait"
+            id="radForfait_3"
+          />
+        </label>
+      </div>
+
+      <input type="submit" value="Valider" />
+    </form>
       </section>
     </div>
 
+    <!-- //section menu (tableau)/////////////////////// -->
     <div>
       <section id="menu" class="menu centre">
         <h1>Menu</h1>
+      <table cla>
+        <caption>
+          Menu des Bières
+        </caption>
+        <thead>
+          <tr>
+            <th>Un</th>
+            <th>Deux</th>
+            <th>Trois</th>
+            <th>Quatre</th>
+            <th>Cinq</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>HelloKitty</th>
+            <th>Papier</th>
+            <th>Finger</th>
+            <th>Intoxication</th>
+            <th>PoidPlume</th>
+          </tr>
+        </tfoot>
+      </table>
       </section>
     </div>
 
+    <!-- //section article//////////////////////////////////////////////////////////// -->
     <div>
-      <section id="article" class="article centre">
+      <section id="article" class="section_article centre">
         <h1>Article</h1>
+        <article class="article">
+          <div class="article__div">
+            <h2>titre article</h2>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, at labore eum impedit sit autem perferendis optio? Quidem necessitatibus odio reprehenderit enim. Eligendi, eius alias. Asperiores laborum natus cupiditate molestiae?     
+            </p>
+          </div>
+          <figure class="article__figure">
+            <img src="../images/can-ruelle.png" alt="biere espace publique">
+            <figcaption>biere espace publique</figcaption>
+          </figure>
+        </article>
+
+        <article class="article">
+           <div class="article__div">
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, at labore eum impedit sit autem perferendis optio? Quidem necessitatibus odio reprehenderit enim. Eligendi, eius alias. Asperiores laborum natus cupiditate molestiae?     
+            </p>
+          </div>
+          <figure class="article__figure">
+            <img src="../images/can-ruelle.png" alt="biere espace publique">
+            <figcaption>biere espace publique</figcaption>
+          </figure>
+        </article>
+
+        <article class="article">
+           <div class="article__div">
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, at labore eum impedit sit autem perferendis optio? Quidem necessitatibus odio reprehenderit enim. Eligendi, eius alias. Asperiores laborum natus cupiditate molestiae?     
+            </p>
+          </div>
+          <figure class="article__figure">
+            <img src="../images/can-ruelle.png" alt="biere espace publique">
+            <figcaption>biere espace publique</figcaption>
+          </figure>
+        </article>
+
+        <article class="article">
+           <div class="article__div">
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, at labore eum impedit sit autem perferendis optio? Quidem necessitatibus odio reprehenderit enim. Eligendi, eius alias. Asperiores laborum natus cupiditate molestiae?     
+            </p>
+          </div>
+          <figure class="article__figure">
+            <img src="../images/can-ruelle.png" alt="biere espace publique">
+            <figcaption>biere espace publique</figcaption>
+          </figure>
+        </article>
+
       </section>
     </div>
-
+    
+    <!-- //section photos videos////////////////////////////////////////////////////// -->
     <div>
       <section id="photos__videos" class="photos__videos centre">
         <h1>Photos et Videos</h1>

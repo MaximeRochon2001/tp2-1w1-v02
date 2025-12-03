@@ -1,0 +1,43 @@
+.menu {
+  padding-top: 20rem;
+}
+
+table {
+  border: 1px solid #aaa;
+  width: 80%;
+  margin: 0 auto;
+}
+
+td,
+th {
+  border: 1px solid #aaa;
+  padding: 5px;
+  /* 2rem = 2 fois la taille établie */
+  font-size: 1rem;
+}
+
+th {
+  text-align: left;
+}
+
+thead {
+  background-color: aqua;
+}
+tbody {
+  background-color: aquamarine;
+}
+tfoot {
+  background-color: burlywood;
+}
+
+caption {
+  font-size: 2rem;
+}
+
+tbody tr:nth-of-type(odd) {
+  background-color: #ffffff6a;
+}
+tbody tr:hover {
+  background-color: #aaa;
+  color: #fff;
+}

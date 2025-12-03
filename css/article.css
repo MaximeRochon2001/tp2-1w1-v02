@@ -1,0 +1,36 @@
+.article {
+  /* padding-top: 1rem; */
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 4;
+  flex-basis: 75%;
+}
+
+.article__div p {
+  font-family: inter-tight;
+  font-size: 20px;
+}
+
+.article__figure {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 15%;
+}
+
+.article__figure img {
+  width: 100px;
+  object-fit: contain;
+}
+
+.article__figure figcaption {
+  display: block;
+  font-size: 10px;
+}
