@@ -8,6 +8,20 @@ table {
   margin: 0 auto;
 }
 
+tbody img {
+  display: flex;
+  object-fit: cover;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+}
+
+tbody img:hover {
+  transform: scale(1);
+  width: 175px;
+  height: 175px;
+}
+
 td,
 th {
   border: 1px solid #aaa;

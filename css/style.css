@@ -103,7 +103,7 @@ h2 {
 .inscription,
 .acceuil,
 .photos__videos {
-  height: 100vh;
+  height: 150vh;
 }
 
 body > div:nth-of-type(1) {

@@ -45,11 +45,6 @@
   height: 100%;
 }
 
-/* #chk-menu::selection ~ .navigation {
-  transform: translateX(0);
-  height: 0;
-} */
-
 .navigation a {
   display: block;
   text-decoration: none;
