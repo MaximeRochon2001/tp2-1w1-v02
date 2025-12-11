@@ -6,6 +6,7 @@ table {
   border: 1px solid #aaa;
   width: 80%;
   margin: 0 auto;
+  font-family: inter-tight;
 }
 
 tbody img {
@@ -35,13 +36,10 @@ th {
 }
 
 thead {
-  background-color: aqua;
+  background-color: #326584;
 }
 tbody {
-  background-color: aquamarine;
-}
-tfoot {
-  background-color: burlywood;
+  background-color: #326584;
 }
 
 caption {
@@ -49,7 +47,7 @@ caption {
 }
 
 tbody tr:nth-of-type(odd) {
-  background-color: #ffffff6a;
+  background-color: rgba(57, 32, 32, 0.548);
 }
 tbody tr:hover {
   background-color: #aaa;

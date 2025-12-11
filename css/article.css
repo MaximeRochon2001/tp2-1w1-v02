@@ -1,8 +1,12 @@
 .article {
-  /* padding-top: 1rem; */
+  color: #c2dbe9;
   gap: 1rem;
   display: flex;
   flex-wrap: wrap;
+}
+
+.article__margin {
+  padding: 15rem;
 }
 
 .article__div {
@@ -34,3 +38,7 @@
   display: block;
   font-size: 10px;
 }
+
+/* .article:nth-of-type(odd) .article__figure {
+  order: -1;
+} */

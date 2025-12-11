@@ -5,6 +5,7 @@
 
 .formulaire {
   padding-top: 20rem;
+  font-family: inter-tight;
 }
 
 .formulaire__div {
@@ -15,7 +16,4 @@
 }
 .formulaire__input {
   margin: 10px 0;
-}
-.formulaire__input:checked {
-  background-color: brown;
 }
