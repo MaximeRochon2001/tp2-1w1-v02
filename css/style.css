@@ -136,6 +136,11 @@ body > div:nth-of-type(5) {
 
 /* //Footer///////////////////////////// */
 
+.bas {
+  background: linear-gradient(180deg, transparent 80%, black 100%)
+    rgb(119, 114, 105);
+}
+
 .pied {
   display: flex;
   flex-wrap: wrap;
