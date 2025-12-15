@@ -1,0 +1,20 @@
+.photos__videos {
+  display: flex;
+  flex-wrap: wrap; /* permet le retour à la ligne */
+  justify-content: center; /* centre les images horizontalement */
+  gap: 20px;
+}
+
+.photos__videos figure {
+  text-align: center;
+  margin: 30px;
+}
+
+.photos__size {
+  width: 300px;
+  height: auto;
+}
+
+.photos__h1 {
+  margin-bottom: 20px;
+}

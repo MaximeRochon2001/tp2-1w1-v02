@@ -64,7 +64,6 @@ header {
 
 .acceuil__container {
   display: flex;
-
   justify-content: space-between;
   align-items: center;
 }
@@ -84,7 +83,7 @@ header {
 
 .bouton__inscription {
   padding: 15px 20px;
-  background-color:  rgb(32, 18, 18);
+  background-color: rgb(32, 18, 18);
   color: white;
   text-decoration: none;
   border-radius: 5px;
