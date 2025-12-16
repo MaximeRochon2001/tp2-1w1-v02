@@ -106,7 +106,8 @@ h3 {
 .menu,
 .inscription,
 .acceuil,
-.photos__videos {
+.photos__videos 
+.recette{
   height: 150vh;
 }
 
@@ -133,12 +134,16 @@ body > div:nth-of-type(5) {
   background: linear-gradient(0deg, transparent 80%, black 100%),
     linear-gradient(180deg, transparent 80%, black 100%) #db7900;
 }
+body > div:nth-of-type(6) {
+  background: linear-gradient(0deg, transparent 80%, black 100%),
+    linear-gradient(180deg, transparent 80%, black 100%) rgb(119, 114, 105);
+}
 
 /* //Footer///////////////////////////// */
 
 .bas {
   background: linear-gradient(180deg, transparent 80%, black 100%)
-    rgb(119, 114, 105);
+   #db7900
 }
 
 .pied {

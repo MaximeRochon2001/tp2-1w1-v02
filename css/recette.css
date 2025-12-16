@@ -1,0 +1,99 @@
+
+.global{
+    font-family: Montserrat;
+}
+
+.recette{
+    color: #c2dbe9;
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    border: 3px, none;
+    border-bottom-style:dotted;
+    
+}
+
+.global h1{
+    font-size: 100px;
+}
+
+.global h1, h2, h3{
+font-family: "DynaPuff";
+}
+
+.recette__div{
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    flex-grow: 1;
+    flex-shrink: 4;
+    flex-basis: 280px;
+}
+
+.recette__div ol{
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.recette__img{
+    width: 400px;
+    object-fit: contain;
+    margin: 0 auto;
+   
+}
+
+.recette__figure{
+    order:0;    
+    transform : rotate(4deg);
+    margin: 0 auto;
+    padding: 1rem;
+    border: 3px,solid ;
+    color: black;
+    border-radius: 30px;
+    
+}
+
+.recette__figcaption{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.405);
+    border-radius: 50px;
+
+}
+
+.recette__figure:nth-child(odd){
+    order: -1;
+}
+
+.recette__figure:hover {
+    transform: rotate(0deg);
+
+}
+
+/* //////// Bouton maison /////////// */
+
+#chk-maison {
+    display: none;
+}
+
+.recette__bouton {
+    position: fixed;
+    top: 95vh;
+    right: 10px;
+    z-index: 1;
+}
+
+.recette__bouton:hover{
+    filter:hue-rotate(120deg)
+}
+
+#chk-maison:checked ~ .navigation{
+transform: translateX(0);
+}
